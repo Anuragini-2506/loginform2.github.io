@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Student Admission Form</title>
+	<link rel="stylesheet" href="css/s1.css">
+</head>
+<body>
+	<div class="menu">
+	<ul type="none">
+		<li ><a href="Student_admission_form.html" title="">Candidates' details</a></li>
+		<li ><a href="Parentdetails.html" title="">Parents' details</a></li>		
+		<li ><a href="address.html" title="">Residential Address</a></li>
+		<li><a href="education.html" title="">Education</a></li>
+		<li class="active"><a href="Course.html" title="">Course Details</a></li>
+	    <li><a href="Submit.html" title="">Final Submission</a></li>
+
+	</ul>
+    </div>
+
+	<div class="form1">
+		<form>
+			<div class="name">
+				<div style=" margin : 10px; padding:10px;position:relative; left:1%; width:88%; background: rgba(0,0,0,0.5); color : white; border-radius: 5px; ">
+				Course Application Details<br>
+			    </div>
+				
+
+				<p style="width:800px">In which course do you want to apply?  </p>
+				    <SELECT name="course" size =1 value="    " style="width:810px; position: relative; left:2%;"> 
+      	    			<option value="c">Computer Science and Engineering</option> 	        
+      	        		<option value="ee">Electronics Engineering</option>  
+      	        		<option value="ce">Civil Engineering</option>  
+      	        		<option value="edt">Electronics Design Technology</option>  
+      	        		<option value="ece">Electronic and telecommunication Engineering</option>  
+           		    </SELECT>
+				
+				
+
+				<p>Shift
+					<SELECT name="shift" size =1 value="    "> 
+      	    			<option value="1">Shift 1</option> 
+      	    			<option value="2">Shift 2</option>	       		 
+           		    </SELECT> 
+           	    </p>	
+
+           	    <p>Do you want hostel facilities?
+					<SELECT name="Hostel" size =1 value="    "> 
+      	    			<option value="1">Yes</option> 
+      	    			<option value="2">No</option>	       		 
+           		    </SELECT> 
+           	    </p>	<br>
+
+
+ 
+           	    <p> JEE Percentile
+				<input class="address" type="digit" name="fname" placeholder="JEE Percentile" maxlength="10" >	</p>		
+
+				<p>&nbsp;MHTCET Percentile
+				<input class="address" type="digit" name="fname" placeholder="MHTCET Percentile" maxlength="10" >	</p>		
+
+				<p>Admission Type
+				    <SELECT name="at" size =1 value="    "> 
+      	    			<option value="Nagpur">Management quota</option> 	        
+      	        		<option value="Mumbai">Merit quota</option>  
+      	        		
+           		    </SELECT>
+				</p>	
+
+			</div>
+			<div style="margin:20px;  position: absolute; left:25%; top:85%; text-align: center;">
+            	<a href="Submit.html" style="text-decoration: none;"><input type="button" class="Button1" value="Save and next"></a>
+            	<input type="reset" value="Reset"  class="Button2"  >
+            </div>
+
+
+		</form>
+		
+	</div>
+	
+</body>
+</html>
